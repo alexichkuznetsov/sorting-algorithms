@@ -7,7 +7,6 @@ function insertionSort(arr) {
   let current, j;
 
   for (let i = 1; i < arr.length; i++) {
-    console.log(arr);
     current = arr[i];
     j = i - 1;
 
